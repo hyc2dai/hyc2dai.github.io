@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>黄云城的个人博客</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html">黄云城的博客</a></h1>
+            </div>
+            <button class="menu-toggle">
+                <span class="menu-icon"></span>
+            </button>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html" class="active">首页</a></li>
+                    <li><a href="about.html">关于我</a></li>
+                    <li><a href="#">文章</a></li>
+                    <li><a href="contact.html">联系方式</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 主内容区 -->
+    <main class="container">
+        <!-- 个人介绍 -->
+        <section class="intro">
+            <div class="intro-content">
+                <h2>你好，我是黄云城</h2>
+                <p>大一学生 | 人工智能技术应用专业</p>
+                <p>热爱编程、人工智能和技术分享</p>
+            </div>
+            <div class="intro-image">
+                <img src="https://picsum.photos/id/1005/200" alt="黄云城" class="profile-img">
+            </div>
+        </section>
+
+        <!-- 最新文章 -->
+        <section class="latest-posts">
+            <h2>最新文章</h2>
+            <div class="posts-grid">
+                <!-- 文章卡片 -->
+                <article class="post-card">
+                    <div class="post-img">
+                        <img src="https://picsum.photos/id/180/400/200" alt="人工智能基础">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-date">2024-01-08</span>
+                        <h3><a href="posts/first-post.html">人工智能技术入门指南</a></h3>
+                        <p>作为人工智能专业的新生，我想分享一下对AI技术的初步理解和学习路径...</p>
+                        <a href="posts/first-post.html" class="read-more">阅读更多</a>
+                    </div>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-img">
+                        <img src="https://picsum.photos/id/160/400/200" alt="Python学习">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-date">2024-01-05</span>
+                        <h3><a href="#">Python编程基础学习笔记</a></h3>
+                        <p>Python是AI领域最常用的编程语言，这篇文章记录了我的Python学习过程...</p>
+                        <a href="#" class="read-more">阅读更多</a>
+                    </div>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-img">
+                        <img src="https://picsum.photos/id/1074/400/200" alt="机器学习">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-date">2024-01-01</span>
+                        <h3><a href="#">机器学习算法初探</a></h3>
+                        <p>对常见机器学习算法的简单介绍，包括监督学习和无监督学习...</p>
+                        <a href="#" class="read-more">阅读更多</a>
+                    </div>
+                </article>
+                
+                <!-- 新增文章卡片 -->
+                <article class="post-card">
+                    <div class="post-img">
+                        <img src="https://picsum.photos/id/1/400/200" alt="数据结构">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-date">2023-12-25</span>
+                        <h3><a href="#">数据结构与算法学习笔记</a></h3>
+                        <p>记录学习数据结构与算法的心得体会，包括链表、树、排序算法等...</p>
+                        <a href="#" class="read-more">阅读更多</a>
+                    </div>
+                </article>
+                
+                <article class="post-card">
+                    <div class="post-img">
+                        <img src="https://picsum.photos/id/3/400/200" alt="Python编程">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-date">2023-12-20</span>
+                        <h3><a href="#">Python编程实用技巧</a></h3>
+                        <p>分享一些Python编程中的实用技巧和最佳实践，提高代码效率...</p>
+                        <a href="#" class="read-more">阅读更多</a>
+                    </div>
+                </article>
+                
+                <article class="post-card">
+                    <div class="post-img">
+                        <img src="https://picsum.photos/id/169/400/200" alt="Web开发">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-date">2023-12-15</span>
+                        <h3><a href="#">Web开发入门指南</a></h3>
+                        <p>介绍Web开发的基础知识，包括HTML、CSS、JavaScript等技术...</p>
+                        <a href="#" class="read-more">阅读更多</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        
+        <!-- 项目展示 -->
+        <section class="projects">
+            <h2>我的项目</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>个人博客网站</h3>
+                    <p>使用HTML、CSS和JavaScript开发的个人博客网站，用于分享学习心得和技术文章。</p>
+                    <a href="#" class="project-link">查看详情</a>
+                </div>
+                
+                <div class="project-card">
+                    <h3>AI聊天机器人</h3>
+                    <p>基于Python和机器学习开发的简单聊天机器人，能够进行基本的对话和问答。</p>
+                    <a href="#" class="project-link">查看详情</a>
+                </div>
+                
+                <div class="project-card">
+                    <h3>数据可视化工具</h3>
+                    <p>使用Python的Matplotlib和Pandas库开发的数据可视化工具，用于分析和展示数据。</p>
+                    <a href="#" class="project-link">查看详情</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 黄云城的个人博客. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
